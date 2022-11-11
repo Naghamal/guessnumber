@@ -33,8 +33,6 @@ function play() {
                 tal3.textContent = "Antal gissade gånger:"+ Number_of_guesses + " guesses";
             }
         }
-    } else {
-        
-    }
+    } 
     
 }

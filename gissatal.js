@@ -7,7 +7,7 @@ var guessed_nums = [];
 document.getElementById("btn").addEventListener("click", play)
 function play() {
 
-        if(Number_of_guesses <= 5) {
+        if(Number_of_guesses <= 4) {
          var guess = document.getElementById("guess").value;
    
         if(guess < 1 || guess > 100) {
@@ -34,7 +34,7 @@ function play() {
             }
         }
     } else {
-        //GAMEOVER---
+        
     }
     
 }

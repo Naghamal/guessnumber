@@ -1,9 +1,9 @@
-var tal1 = document.getElementById("tal1");
-var tal2 = document.getElementById("tal2");
-var tal3 = document.getElementById("tal3");
-var answer = Math.floor(Math.random()*100) + 1;
-var Number_of_guesses = 0;
-var guessed_nums = [];
+let tal1 = document.getElementById("tal1");
+let tal2 = document.getElementById("tal2");
+let tal3 = document.getElementById("tal3");
+let answer = Math.floor(Math.random()*100) + 1;
+let Number_of_guesses = 0;
+let guessed_nums = [];
 document.getElementById("btn").addEventListener("click", play)
 function play() {
 
